@@ -1,0 +1,18 @@
+.content {
+  height: calc(100% - 140px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories {
+  display: flex;
+  flex-direction:row;
+  gap: 100px;
+}
+
+.column {
+  display: flex;
+  flex-direction:column;
+  gap: 20px;
+}
